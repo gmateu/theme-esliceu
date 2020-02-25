@@ -2,9 +2,9 @@
 get_header();
 
 ?>
-<div class="banner-page jumbotron jumbo-single">
-        <h1>Benvinguts a Es Liceu</h1>
-        <p>Posar single.php subtítol</p>
+<div class="banner-page jumbotron jumbo-page">
+        <h1>Benvinguts a Es Liceu PAGE.PHP</h1>
+        <p>Posaaaaar subtítol</p>
     </div>
 
     
@@ -17,11 +17,12 @@ get_header();
             <div class="post-item">
                 <h2><a href="<?=the_permalink()?>"><?=the_title($before, $after, $echo)?></a></h2>
                 <div class="metabox">
-                    <p>Autor: <?=the_author()?></p>
+                    <p>Escrit per <?=the_author()?> el <?=the_time('d-M-Y')?> a <?=get_the_category_list(', ')?></p>
                 </div>
                 <div class="content">
                     <?=the_content()?>
                 </div>
+ 
             </div>
             <hr>
         <?php

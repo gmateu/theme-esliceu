@@ -16,6 +16,15 @@ body{
     background-image: url(../images/909e000322792b99b4f2237fe56f1a5c.jpg);
 }
 
+.jumbo-single{
+    background-image: url(../images/lukasz-szmigiel-jFCViYFYcus-unsplash.jpg);
+}
+
+.jumbo-page{
+    background-image: url(../images/lukasz-szmigiel-jFCViYFYcus-unsplash.jpg);
+
+}
+
 
 .jumbotron{
     color:yellow;
@@ -113,15 +122,7 @@ body{
     line-height: 1;
     transition: opacity .33s;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, .22<div class="post-sumary row">
-    <a href="#" class="post-sumary-date text-center">
-        <span class="date-day">12</span>
-        <div class="date-month">feb</div>
-    </a>
-    <div class="post-sumary-content">
-        <h5 class="post-sumary-content-title">títol post</h5>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure, libero.</p>
-    </div>
-</div>);
+
 }
 
 .date--beige {

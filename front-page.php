@@ -4,8 +4,10 @@ get_header();
 ?>
 
 <div id="showcase">
-    <h1>Benvinguts a la web</h1>
-    <p>posar titol</p>
+    <h1>Benvinguts a la FRONT-PAGE.PHP</h1>
+    <p><?php
+        echo wp_hash_password("1234");
+    ?></p>
 </div>
 
     <div class="full">

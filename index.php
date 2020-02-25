@@ -3,8 +3,8 @@ get_header();
 
 ?>
 <div id="jumbo-post" class="banner-page jumbotron">
-        <h1>Benvinguts a Es Liceu</h1>
-        <p>Posar subtítol</p>
+        <h1>Benvinguts a Es Liceu INDEX.PHP</h1>
+        <p>Posaaaaar subtítol</p>
     </div>
 
     
